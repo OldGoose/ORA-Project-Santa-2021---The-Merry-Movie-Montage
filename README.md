@@ -61,6 +61,7 @@ In this case, we choose Ant Colony Optimization and Lin-Kernighan to solve this 
 ### **Ant Colony Optimization(ACO)**
 ACO is a bionic iterative algorithm. At each iteration, a number of artificial ants are considered. They builds a solution by walking from one vertex (city) to another on the graph, with one constraint being not to visit the vertices it has already visited during it walk. During walking (solving), the ant selects the following vertices to visit according to a random mechanism biased by pheromone, As shown below:
 ![](https://i.imgur.com/2EdAq9X.png)
+
 when ant in the vertex <img src="https://latex.codecogs.com/svg.image?i" title="i" />, the following vertex is selected stochastically among the previously unvisited ones. For example, if <img src="https://latex.codecogs.com/svg.image?j" title="j" /> has not been visited before, it can be selected with a probability that is proportional to the pheromone associated with edge <img src="https://latex.codecogs.com/svg.image?\left&space;(&space;i,j&space;\right&space;)" title="\left ( i,j \right )" />. At the end of the iteration, depending on the quality of the solutions built by the ants, the pheromone values are modified so that in future iterations the ants build solutions that are similar to the previous best solution.
 The Algorithm of ACO metaheuristic as below[3]:
 ![](https://i.imgur.com/s9DJbak.png)
@@ -71,6 +72,7 @@ The algorithm as follows[4]:
 2. LKH use the <img src="https://latex.codecogs.com/svg.image?\lambda&space;" title="\lambda " />-opt to optimizes tour. In each iteration, by removing the <img src="https://latex.codecogs.com/svg.image?\lambda&space;" title="\lambda " /> links, the path can reverse one or more of them, shortening each step. 
 3. Until algorithm cannot improve the solution then stop.
 Take 2-opt as an example
+
 ![](https://i.imgur.com/vImavkw.png)
 1. Start witha given tour.
 2. Replace 2 links of original tour with 2 other links in such a way that the obtain the new shorter tour.
@@ -116,7 +118,3 @@ Take 2-opt as an example
 [2] R. Houston, “Tackling the minimal superpermutation problem,” arXiv preprint arXiv:1408.5108, 2014.<br />
 [3] M. Dorigo, M. Birattari and T. Stutzle, "Ant colony optimization," in IEEE Computational Intelligence Magazine, vol. 1, no. 4, pp. 28-39, Nov. 2006, doi: 10.1109/MCI.2006.329691.<br />
 [4] K. Helsgaun, “An effective implementation of the Lin–Kernighan traveling salesman heuristic,” European journal of operational research, vol. 126, no. 1, pp. 106-130, 2000.<br />
-
-
-
-
