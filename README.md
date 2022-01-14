@@ -89,21 +89,21 @@ This section will show the results of ACO and LKH-3 under different data preproc
 ![](https://i.imgur.com/GzPvh0W.png)
 ---
 
-**2. Robin Houston & Egan propsed 7! superpertation with ACO or LKH.**
+**2. Robin Houston & Egan propsed 7! superpermutation with ACO or LKH.**
 
-![](https://i.imgur.com/7WhKqmd.png)
+![](https://i.imgur.com/AMtbSK0.png)
 ---
 **3. Williams Construction 7! superpermutation with LKH.**
 
-![](https://i.imgur.com/teO8yNN.png)
+![](https://i.imgur.com/uNJMbmX.png)
 ---
 ## Result
 |                                                                                                   Proess                                                                                                    | Excution time | Without 🌟 | Final Score |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------:|:----------:|:-----------:|
 |                  [Data (without preprocessing) with ACO   ](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_ACO_Original.ipynb)                  |    0:15:22     |    4761    |    4709     |
 |                   [Data (without preprocessing) with LKH](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_LKH_Original.ipynb)                    |    0:22:28     |    4125    |    4119     |
-|    [Robin Houston & Egan propsed 7! superpertation with ACO](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_ACO_Robin_Houston%26Egan.ipynb)     |    0:15:00     |    2699    |    2695     |
-|    [Robin Houston & Egan propsed 7! superpertation with LKH](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_LKH_Robin_Houston%26Egan.ipynb)     |    0:32:07     |    2507    |    2500     |
+|    [Robin Houston & Egan propsed 7! superpermutation with ACO](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_ACO_Robin_Houston%26Egan.ipynb)     |    0:15:00     |    2699    |    2695     |
+|    [Robin Houston & Egan propsed 7! superpermutation with LKH](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Santa_2021_TSP_LKH_Robin_Houston%26Egan.ipynb)     |    0:32:07     |    2507    |    2500     |
 | [Williams Construction 7! superpermutation with LKH](https://github.com/OldGoose/ORA-Project-Santa-2021---The-Merry-Movie-Montage/blob/main/code/Williams_Construction_7!_superpermutation_with_LKH_.ipynb) |    0:00:14     |    2483    |    2481     |
 
 
@@ -124,5 +124,6 @@ The competition has ended on 1/12. The lead board is **2428**. In the future, we
 [3] M. Dorigo, M. Birattari and T. Stutzle, "Ant colony optimization," in IEEE Computational Intelligence Magazine, vol. 1, no. 4, pp. 28-39, Nov. 2006, doi: 10.1109/MCI.2006.329691.<br />
 
 [4] K. Helsgaun, “An effective implementation of the Lin–Kernighan traveling salesman heuristic,” European journal of operational research, vol. 126, no. 1, pp. 106-130, 2000.<br />
+
 
 
