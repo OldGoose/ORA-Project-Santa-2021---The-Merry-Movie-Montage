@@ -118,8 +118,11 @@ The competition has ended on 1/12. The lead board is **2428**. In the future, we
 
 ## Reference
 [1] https://www.gregegan.net/SCIENCE/Superpermutations/Superpermutations.html.<br />
+
 [2] R. Houston, “Tackling the minimal superpermutation problem,” arXiv preprint arXiv:1408.5108, 2014.<br />
+
 [3] M. Dorigo, M. Birattari and T. Stutzle, "Ant colony optimization," in IEEE Computational Intelligence Magazine, vol. 1, no. 4, pp. 28-39, Nov. 2006, doi: 10.1109/MCI.2006.329691.<br />
+
 [4] K. Helsgaun, “An effective implementation of the Lin–Kernighan traveling salesman heuristic,” European journal of operational research, vol. 126, no. 1, pp. 106-130, 2000.<br />
 
 
